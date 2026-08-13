@@ -1,0 +1,104 @@
+site_name: Learnings
+site_description: Personal Engineering & Problem-Solving Handbook
+site_url: https://lokenderR.github.io/Learnings/
+repo_name: lokenderR/Learnings
+repo_url: https://github.com/lokenderR/Learnings
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Problem Solving:
+      - problem-solving/index.md
+      - Patterns:
+          - problem-solving/patterns/index.md
+          - Dynamic Programming:
+              - problem-solving/patterns/dynamic-programming/index.md
+              - State Machine:
+                  - problem-solving/patterns/dynamic-programming/state-machine/index.md
+                  - Stock With Transaction Fee: problem-solving/patterns/dynamic-programming/state-machine/stock-with-transaction-fee.md
+          - Sliding Window: problem-solving/patterns/sliding-window/index.md
+          - Two Pointers: problem-solving/patterns/two-pointers/index.md
+          - Binary Search: problem-solving/patterns/binary-search/index.md
+          - Stack: problem-solving/patterns/stack/index.md
+          - Heap: problem-solving/patterns/heap/index.md
+          - Trees: problem-solving/patterns/trees/index.md
+          - Graphs: problem-solving/patterns/graphs/index.md
+          - Backtracking: problem-solving/patterns/backtracking/index.md
+          - Greedy: problem-solving/patterns/greedy/index.md
+  - System Design:
+      - system-design/index.md
+      - HLD: system-design/hld/index.md
+      - LLD: system-design/lld/index.md
+      - Concepts: system-design/concepts/index.md
+      - Case Studies: system-design/case-studies/index.md
+  - Computer Science:
+      - computer-science/index.md
+      - Databases: computer-science/databases/index.md
+      - Networking: computer-science/networking/index.md
+      - Operating Systems: computer-science/operating-systems/index.md
+      - Distributed Systems: computer-science/distributed-systems/index.md
+  - Backend Engineering:
+      - backend-engineering/index.md
+      - Java: backend-engineering/java/index.md
+      - Spring: backend-engineering/spring/index.md
+      - Microservices: backend-engineering/microservices/index.md
+      - Messaging: backend-engineering/messaging/index.md
+      - Observability: backend-engineering/observability/index.md
+  - Courses: courses/index.md
+  - Books & Reading: books/index.md
+  - Notes: notes/index.md
+  - Conventions:
+      - Coding Problem: conventions/coding-problem.md
+      - System Design Concept: conventions/system-design-concept.md
+      - HLD Case Study: conventions/hld-case-study.md
+      - LLD Design: conventions/lld-design.md
+      - Course Notes: conventions/course-notes.md
+      - Book Notes: conventions/book-notes.md
