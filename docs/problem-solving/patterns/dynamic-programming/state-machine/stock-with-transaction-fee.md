@@ -74,6 +74,8 @@ Each price lets you either stay in the same world or move to the other world by 
 
 ## Visual Model
 
+![Stock with transaction fee visual explanation](../../../../assets/images/stock-with-transaction-fee-overview.png)
+
 ```mermaid
 stateDiagram-v2
     Cash: cash\nnot holding stock
