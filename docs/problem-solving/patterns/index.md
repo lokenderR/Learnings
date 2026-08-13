@@ -21,3 +21,7 @@ Use this section to answer:
 - [Graphs](graphs/index.md)
 - [Backtracking](backtracking/index.md)
 - [Greedy](greedy/index.md)
+
+## Problems
+
+Problem pages live under their pattern or subpattern so the left sidebar can grow naturally as new problems are added.

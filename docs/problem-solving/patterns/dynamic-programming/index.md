@@ -13,5 +13,11 @@ Dynamic Programming applies when a problem has overlapping subproblems and decis
 
 - [State Machine](state-machine/index.md)
 
+## Problems
+
+Problems are listed under their most specific DP variant in the left sidebar.
+
+- [Stock With Transaction Fee](state-machine/stock-with-transaction-fee.md)
+
 !!! note "Revision focus"
     For each DP problem, identify the state before writing recurrence code.

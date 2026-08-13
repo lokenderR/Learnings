@@ -1,0 +1,10 @@
+/* Keep the handbook calm and focused: no right-side table of contents pane. */
+.md-sidebar--secondary {
+  display: none;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-content {
+    margin-right: 0;
+  }
+}

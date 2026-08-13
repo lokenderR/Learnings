@@ -9,11 +9,11 @@ theme:
   language: en
   features:
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - navigation.path
     - navigation.top
     - navigation.tracking
-    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -52,6 +52,9 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
