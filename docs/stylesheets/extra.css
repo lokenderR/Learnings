@@ -1,10 +1,29 @@
 /* Keep the handbook calm and focused: no right-side table of contents pane. */
 .md-sidebar--secondary {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: none;
+  }
+
+  .md-main__inner {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .md-sidebar--primary {
+    left: 0;
+  }
+
   .md-content {
     margin-right: 0;
+  }
+
+  .md-content__inner {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    max-width: none;
   }
 }
