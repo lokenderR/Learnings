@@ -46,10 +46,22 @@ Use one representative example, preferably with a small table.
 
 ## Java Implementation
 
-```java
+Use a bounded code window for long code so the page stays readable on wide screens.
+
+Available widths:
+
+- `code-window--narrow`: compact snippets
+- `code-window`: normal Java solutions
+- `code-window--wide`: unusually wide code
+
+<div class="code-window" markdown="1">
+
+```java title="Java"
 class Solution {
 }
 ```
+
+</div>
 
 ## Complexity
 

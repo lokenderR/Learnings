@@ -1,4 +1,4 @@
-# Backtracking
+# test 2 sub section
 
 <script type="application/json" id="editable-blocks-page">
 [
@@ -6,18 +6,18 @@
     "id": "strategy-overview",
     "type": "question",
     "title": "Strategy Overview",
-    "body": "Use Backtracking when building candidates step by step and abandoning invalid partial choices.",
+    "body": "Use this page to capture the core idea behind **test 2 sub section** and when this pattern should be considered.",
     "boxBackground": "blue",
     "boxBorder": "full",
     "boxPadding": "normal",
     "boxWidth": "normal",
-    "pageTitle": "Backtracking"
+    "pageTitle": "test 2 sub section"
   },
   {
     "id": "strategy-logic",
     "type": "logic",
     "title": "How This Strategy Works",
-    "body": "- Generate all valid combinations, permutations, or partitions\n- Constraint satisfaction\n- Search tree with reversible choices",
+    "body": "- Recognition signal: describe what the problem usually asks for.\n- Core invariant: describe what must stay true while solving.\n- Main move: describe how the state/window/pointer/queue/stack changes.\n- Stop condition: describe when the answer is known.",
     "boxBackground": "green",
     "boxBorder": "left",
     "boxPadding": "normal",
@@ -34,6 +34,7 @@
     "boxWidth": "normal",
     "images": [],
     "src": "",
+    "previewUrl": "",
     "caption": "Attach a diagram or screenshot that explains the strategy.",
     "imageSize": "medium",
     "align": "center",
@@ -71,7 +72,7 @@
 <div class="admonition question" markdown="1">
 <p class="admonition-title">Strategy Overview</p>
 
-<p>Use Backtracking when building candidates step by step and abandoning invalid partial choices.</p>
+<p>Use this page to capture the core idea behind <strong>test 2 sub section</strong> and when this pattern should be considered.</p>
 
 </div>
 
@@ -82,9 +83,10 @@
 ## How This Strategy Works
 
 <div class="learning-list">
-  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Generate all valid combinations, permutations, or partitions</span></div>
-  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Constraint satisfaction</span></div>
-  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Search tree with reversible choices</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Recognition signal: describe what the problem usually asks for.</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Core invariant: describe what must stay true while solving.</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Main move: describe how the state/window/pointer/queue/stack changes.</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Stop condition: describe when the answer is known.</span></div>
 </div>
 
 </section>

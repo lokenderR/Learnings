@@ -1,4 +1,4 @@
-# Backtracking
+# BFS
 
 <script type="application/json" id="editable-blocks-page">
 [
@@ -6,18 +6,18 @@
     "id": "strategy-overview",
     "type": "question",
     "title": "Strategy Overview",
-    "body": "Use Backtracking when building candidates step by step and abandoning invalid partial choices.",
+    "body": "Breadth-first search explores a graph layer by layer.\n\nUse BFS when distance, minimum steps, shortest time in an unweighted graph, or simultaneous spreading is involved.",
     "boxBackground": "blue",
     "boxBorder": "full",
     "boxPadding": "normal",
     "boxWidth": "normal",
-    "pageTitle": "Backtracking"
+    "pageTitle": "BFS"
   },
   {
     "id": "strategy-logic",
     "type": "logic",
     "title": "How This Strategy Works",
-    "body": "- Generate all valid combinations, permutations, or partitions\n- Constraint satisfaction\n- Search tree with reversible choices",
+    "body": "- Each move has equal cost.\n- The problem asks for minimum number of steps, minutes, levels, or distance.\n- Multiple sources may start spreading at the same time.\n- You can mark nodes/cells visited when they enter the queue.",
     "boxBackground": "green",
     "boxBorder": "left",
     "boxPadding": "normal",
@@ -56,7 +56,7 @@
     "id": "strategy-standard-problems",
     "type": "checklist",
     "title": "Standard Problems",
-    "body": "- [ ] Add first canonical problem\n- [ ] Add second canonical problem\n- [ ] Add edge-case heavy problem\n- [ ] Add revision problem",
+    "body": "- [ ] [Rotten Oranges](rotten-oranges.md)\n- [ ] [Editable Page Demo](editable-page-demo.md)",
     "boxBackground": "violet",
     "boxBorder": "left",
     "boxPadding": "normal",
@@ -71,7 +71,9 @@
 <div class="admonition question" markdown="1">
 <p class="admonition-title">Strategy Overview</p>
 
-<p>Use Backtracking when building candidates step by step and abandoning invalid partial choices.</p>
+<p>Breadth-first search explores a graph layer by layer.</p>
+
+<p>Use BFS when distance, minimum steps, shortest time in an unweighted graph, or simultaneous spreading is involved.</p>
 
 </div>
 
@@ -82,9 +84,10 @@
 ## How This Strategy Works
 
 <div class="learning-list">
-  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Generate all valid combinations, permutations, or partitions</span></div>
-  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Constraint satisfaction</span></div>
-  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Search tree with reversible choices</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Each move has equal cost.</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>The problem asks for minimum number of steps, minutes, levels, or distance.</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>Multiple sources may start spreading at the same time.</span></div>
+  <div class="learning-list__line" style="--list-indent: 0;"><span class="learning-list__marker">-</span><span>You can mark nodes/cells visited when they enter the queue.</span></div>
 </div>
 
 </section>
@@ -122,10 +125,8 @@ class PatternTemplate {
 
 ## Standard Problems
 
-- [ ] Add first canonical problem
-- [ ] Add second canonical problem
-- [ ] Add edge-case heavy problem
-- [ ] Add revision problem
+- [ ] [Rotten Oranges](rotten-oranges.md)
+- [ ] [Editable Page Demo](editable-page-demo.md)
 
 </section>
 <!-- rendered-blocks:page:end -->

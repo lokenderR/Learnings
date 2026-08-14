@@ -3,6 +3,7 @@
 .vscode/
 site/
 .cache/
+.handbook-editor/
 __pycache__/
 *.py[cod]
 .venv/

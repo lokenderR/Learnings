@@ -8,9 +8,7 @@ theme:
   name: material
   language: en
   features:
-    - navigation.sections
     - navigation.indexes
-    - navigation.expand
     - navigation.path
     - navigation.top
     - navigation.tracking
@@ -56,6 +54,11 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/sidebar-resizer.js
+  - javascripts/local-page-editor.js
+  - javascripts/dynamic-page-editor.js
+
 nav:
   - Home: index.md
   - Problem Solving:
@@ -67,13 +70,24 @@ nav:
               - State Machine:
                   - problem-solving/patterns/dynamic-programming/state-machine/index.md
                   - Stock With Transaction Fee: problem-solving/patterns/dynamic-programming/state-machine/stock-with-transaction-fee.md
-          - Sliding Window: problem-solving/patterns/sliding-window/index.md
+          - Sliding Window:
+              - problem-solving/patterns/sliding-window/index.md
+              - "test 2 sub section":
+                  - problem-solving/patterns/sliding-window/test-2-sub-section/index.md
+                  - "Longest Common Substring 1": problem-solving/patterns/sliding-window/test-2-sub-section/longest.md
+              - "test":
+                  - problem-solving/patterns/sliding-window/test/index.md
           - Two Pointers: problem-solving/patterns/two-pointers/index.md
           - Binary Search: problem-solving/patterns/binary-search/index.md
           - Stack: problem-solving/patterns/stack/index.md
           - Heap: problem-solving/patterns/heap/index.md
           - Trees: problem-solving/patterns/trees/index.md
-          - Graphs: problem-solving/patterns/graphs/index.md
+          - Graphs:
+              - problem-solving/patterns/graphs/index.md
+              - BFS:
+                  - problem-solving/patterns/graphs/bfs/index.md
+                  - Rotten Oranges: problem-solving/patterns/graphs/bfs/rotten-oranges.md
+                  - Editable Page Demo: problem-solving/patterns/graphs/bfs/editable-page-demo.md
           - Backtracking: problem-solving/patterns/backtracking/index.md
           - Greedy: problem-solving/patterns/greedy/index.md
   - System Design:
